@@ -1,12 +1,12 @@
 //Linked List Sum of Nodes Between 0s
 //Given a linked list which contains series of numbers seperated by “0”. Add them and store in the linked list in-place.
 //Note :There will not be continuous zeros in input.
-//
+
 //Examples:
-//
+
 //Input  : 1->2->3->0->5->4->0->3->2->0
 //Output : 6->9->5
-//
+
 //Input  : 1->2->3->4
 //Output : 1->2->3->4
 
