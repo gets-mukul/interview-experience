@@ -19,12 +19,13 @@ import java.util.Scanner;
 
 public class RoundNumberX10 {
 
-	public static void  main(String[] args) {
-		
-		
+	public static void main(String[] args) {
+
 		System.out.print("Enter the Number: ");
+		
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
+		
 		int last_digit = num % 10;
 
 		if (last_digit <= 5) {
@@ -33,7 +34,7 @@ public class RoundNumberX10 {
 			num = num + (10 - last_digit);
 		}
 
-		System.out.println((38/10));
+		System.out.println((38 / 10));
 
 	}
 
